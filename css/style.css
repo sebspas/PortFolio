@@ -1,0 +1,106 @@
+/*****
+    GENERAL
+*****/
+.fixed {
+    position: fixed;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+}
+
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.text-white {
+    color: white !important;
+}
+
+/*
+    SideNav
+*/
+
+header, main, footer {
+    padding-left: 300px;
+  }
+
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
+
+.side-nav {
+    padding: 15px;
+    background: url("../image/bg-sidenav.jpeg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.side-nav li>a {
+    color: white;
+}
+
+.side-nav li>a>i {
+    color: white;
+}
+
+#nav-items {
+    padding-top: 15px;
+}
+
+#nav-footer {
+    position: absolute;
+    margin: auto;
+    padding: 50px;
+    padding-bottom: 90px;
+    width: 100%;
+    bottom: 0;
+}
+
+#nav-footer a {
+    color: white;
+    padding-right: 20px;
+}
+
+#img-me {
+    margin: auto;
+    padding: 15px;
+    width: 175px;
+    height: 175px;
+    background: url("../image/me.jpg") no-repeat center;
+    background-size: cover;
+    
+}
+
