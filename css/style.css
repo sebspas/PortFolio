@@ -76,6 +76,10 @@ header, main, footer {
     color: white;
 }
 
+#side-nav-button {
+    display: none;
+}
+
 #nav-items {
     padding-top: 15px;
 }
@@ -104,3 +108,41 @@ header, main, footer {
     
 }
 
+/*
+    Main block
+*/
+.main-block {
+    margin: 0;
+    padding: 0;
+    margin-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+    .main-block {
+        margin-left: 0px;
+    }
+
+    #side-nav-button {
+        display: block;
+    }
+  }
+
+/* 
+  Presentation
+*/
+#presentation {
+    background-color: beige;
+    padding: 15px;
+}
+
+/*
+    Competences
+*/
+.langage-block {
+    padding: 15px;
+}
+
+.langage-block img {
+    width: 125px;
+    height: 125px;
+}

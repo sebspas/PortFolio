@@ -10,29 +10,66 @@
     <!--Font Awesome Icons database-->
     <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     media="screen,projection"/>
+    
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
 
   <body>
-      <!-- SideNaw Fixed -->
-        <ul id="slide-out" class="side-nav fixed">
-            <div class="center">
-                <div id="img-me" class="circle"></div>
-            </div>
-            <div id="nav-items">
-                <li><a href="#presentation"><i class="fa fa-info-circle fa-2x" aria-hidden="true"></i> Présentation</a></li>
-                <li><a href="#skills"><i class="fa fa-tasks fa-2x" aria-hidden="true"></i> Compétences</a></li>
-                <li><a href="#portfolio"><i class="fa fa-briefcase fa-2x" aria-hidden="true"></i> Portfolio</a></li>
-                <li><a href="#school"><i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i> Etudes</a></li>          
-            </div>
-            <div id="nav-footer" class="center">
-                <a href="https://www.facebook.com/sebastien.corfa"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/sebastien-corfa/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-                <a href="https://github.com/sebspas"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-            </div>
-        </ul>
-        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    <!-- SideNaw Fixed -->
+    <ul id="slide-out" class="side-nav fixed">
+        <div class="center">
+            <div id="img-me" class="circle"></div>
+        </div>
+        <div id="nav-items">
+            <li><a href="#presentation"><i class="fa fa-info-circle fa-2x" aria-hidden="true"></i> Présentation</a></li>
+            <li><a href="#skills"><i class="fa fa-tasks fa-2x" aria-hidden="true"></i> Compétences</a></li>
+            <li><a href="#portfolio"><i class="fa fa-briefcase fa-2x" aria-hidden="true"></i> Portfolio</a></li>
+            <li><a href="#school"><i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i> Etudes</a></li>          
+        </div>
+        <div id="nav-footer" class="center">
+            <a href="https://www.facebook.com/sebastien.corfa"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/sebastien-corfa/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+            <a href="https://github.com/sebspas"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        </div>
+    </ul>
+    <a href="#" id="side-nav-button" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+    <div class="main-block">        
+        <div id="presentation">
+            <div class="container">
+                <h3 class="left-align title">Corfa Sébastien - Développeur Gameplay/Outils</h3>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Ut tincidunt orci nec ornare blandit. Nam cursus dolor a pellentesque laoreet. 
+                    Morbi eu ultrices est. In elit ex, dictum quis mi in, placerat pharetra est. 
+                    Ut quis ante a magna consequat ultrices ut non enim. Nam ante risus, semper ut
+                    consectetur et, eleifend at nisi. Sed sit amet urna volutpat nulla ornare 
+                    efficitur id quis odio. Donec maximus nunc sit amet euismod iaculis. Donec at porttitor ante,
+                    vitae eleifend arcu.</p>      
+            </div>                              
+        </div>
+        <div id="competences">
+            <div class="container">
+                <h3 class="left-align">Compétences</h3>
+                <div class="divider"></div>
+                <div clas="row">
+                    <div class="col s4">
+                        <img src="image/icons/csharp.png"/>
+                        <h5>C#</h5>
+                    </div>
+                    <div class="col s4">
+                        <img src="image/icons/csharp.png"/>
+                        <h5>C#</h5>
+                    </div>
+                    <div class="col s4">
+                        <img src="image/icons/csharp.png"/>
+                        <h5>C#</h5>
+                    </div>
+                </div>
+            </div>                              
+        </div>
+    </div>
+    
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
