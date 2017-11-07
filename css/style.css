@@ -63,9 +63,11 @@ header, main, footer {
 
 .side-nav {
     padding: 15px;
-    background: url("../image/bg-sidenav.jpeg") no-repeat center;
-    background-size: cover;
+    background-color: #607D8B;
+    /*background: url("../image/bg-sidenav.jpeg") no-repeat center;
+    background-size: cover;*/
     height: 100vh;
+    color: white;
 }
 
 .side-nav li>a {
@@ -131,9 +133,18 @@ header, main, footer {
   Presentation
 */
 #presentation {
-    background-color: beige;
+    background: url("../image/bg2-blur.jpg") no-repeat bottom;
+    background-size: cover;
+   /* background-color: beige;*/
+    min-height: 450px;
     padding: 15px;
+    color: white;
 }
+
+#presentation h3 {
+    padding-top: 50px;
+}
+
 
 /*
     Competences
@@ -142,7 +153,13 @@ header, main, footer {
     padding: 15px;
 }
 
-.langage-block img {
-    width: 125px;
-    height: 125px;
+/*
+    Portfolio
+*/
+#portfolio {
+    padding-top: 90px;
+}
+
+.block-protfolio {
+    margin: 20px;
 }
