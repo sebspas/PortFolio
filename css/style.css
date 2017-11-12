@@ -126,6 +126,18 @@ header, main, footer {
 
     #side-nav-button {
         display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    #nav-footer {
+        position: absolute;
+        margin: auto;
+        padding: 0px;
+        padding-bottom: 0px;
+        width: 100%;
+        bottom: 0;
     }
   }
 

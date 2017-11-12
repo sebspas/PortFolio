@@ -7,7 +7,7 @@ $(document).ready(function(){
     /*
     Form Submit
     */
-    $("form").submit(OnSubmit);
+    $(".form-contact").submit(OnSubmit);
 
     function OnSubmit(data) {
         $.ajax({
@@ -20,10 +20,7 @@ $(document).ready(function(){
     } // OnSubmit()
 
     function OnSuccess(result) {
-        
-
         if (result != "Ok") {
-
             Materialize.toast(result, 4000);
         } else {
             Materialize.toast('Message bien envoyé !', 6000);
