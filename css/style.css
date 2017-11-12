@@ -157,9 +157,20 @@ header, main, footer {
     Portfolio
 */
 #portfolio {
-    padding-top: 90px;
+    padding-top: 50px;
 }
 
 .block-protfolio {
     margin: 20px;
+}
+
+
+/*
+    Contact
+*/
+#contact {
+    padding: 50px;
+    background: url("../image/bg-contact.jpg") no-repeat center;
+    background-size: cover;
+    color: white;
 }
