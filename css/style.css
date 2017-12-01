@@ -182,7 +182,11 @@ header, main, footer {
 */
 #contact {
     padding: 50px;
-    background: url("../image/bg-contact.jpg") no-repeat center;
+    background: url("../image/bg-contact-2.jpg") no-repeat center;
     background-size: cover;
+    color: white;
+}
+
+#contact .input-field label {
     color: white;
 }
