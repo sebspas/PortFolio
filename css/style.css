@@ -190,3 +190,13 @@ header, main, footer {
 #contact .input-field label {
     color: white;
 }
+
+/*
+    Language selector
+*/
+#langage-selector {
+    position: fixed;
+    z-index: 200;
+    right:0;
+    padding: 5px;
+}

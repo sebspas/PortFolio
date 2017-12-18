@@ -4,6 +4,13 @@ $(document).ready(function(){
     // initialize parrallax component
     $('.parallax').parallax();
 
+    // then we close the menu on click
+    $('#nav-items').click(function() {
+        if ($( window ).width() < 1000) {
+            $(".button-collapse").sideNav('hide');
+        }            
+    });
+
     /*
     Form Submit
     */
