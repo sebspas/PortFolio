@@ -105,7 +105,7 @@ header, main, footer {
     padding: 15px;
     width: 175px;
     height: 175px;
-    background: url("../image/me.jpg") no-repeat center;
+    background: url("../image/me.png") no-repeat center;
     background-size: cover;
     
 }
@@ -182,7 +182,7 @@ header, main, footer {
 */
 #contact {
     padding: 50px;
-    background: url("../image/bg-contact-2.jpg") no-repeat center;
+    background: url("../image/bg4-blur-darken.jpg") no-repeat center;
     background-size: cover;
     color: white;
 }
